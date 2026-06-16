@@ -5,11 +5,11 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import android.widget.Button
 import android.widget.EditText
-import com.example.quicktask.MainActivity
 
 class AddHabitActivity : AppCompatActivity() {
 
     private lateinit var habitNameEditText: EditText
+    private lateinit var habitDescriptionEditText: EditText
     private lateinit var saveHabitButton: Button
     private lateinit var backButton: Button
 
@@ -18,6 +18,7 @@ class AddHabitActivity : AppCompatActivity() {
         setContentView(R.layout.activity_add_habit)
 
         habitNameEditText = findViewById(R.id.habitNameEditText)
+        habitDescriptionEditText = findViewById(R.id.habitDescriptionEditText)
         saveHabitButton = findViewById(R.id.saveHabitButton)
         backButton = findViewById(R.id.backButton)
 

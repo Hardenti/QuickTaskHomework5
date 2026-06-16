@@ -52,6 +52,10 @@ dependencies {
     // Material UI
     implementation("com.google.android.material:material:1.12.0")
 
+    // ⭐ DataStore dependencies
+    implementation("androidx.datastore:datastore-preferences:1.0.0")
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.1")
+
     // Jetpack Compose
     implementation(platform("androidx.compose:compose-bom:2024.06.00"))
     implementation("androidx.compose.ui:ui")
